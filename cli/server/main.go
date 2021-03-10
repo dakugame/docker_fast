@@ -20,7 +20,6 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello KARO!") // send data to client side
 }
 
-}
 
 func main() {
 	http.HandleFunc("/", homePage)
